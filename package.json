@@ -21,7 +21,7 @@
     "babel-register": "^6.26.0",
     "browser-sync": "^2.24.5",
     "doiuse": "^4.1.0",
-    "eslint": "3.19.0",
+    "eslint": ">=4.18.2",
     "eslint-config-airbnb": "14.1.0",
     "eslint-formatter-pretty": "1.1.0",
     "eslint-import-resolver-webpack": "0.8.1",
