@@ -1,0 +1,19 @@
+extends ./layout/_layout.pug
+
+block content
+
+  main
+    .container.py-4
+      .row.justify-content-center
+        .col-md-4.col-6
+          select.form-control(id="data--select")
+            option(value="0") データ1
+            option(value="1") データ2    
+      div(id="chart--wrapper")
+    .chart--tooltip
+      .tooltip--time
+      |2019/09/01
+      br
+      |66.4
+      small %
+        

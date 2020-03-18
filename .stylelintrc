@@ -1,0 +1,18 @@
+{
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": [
+    "app/styles/modules/**",
+    "css/libs/**"
+  ],
+  "rules" : {
+    "font-family-no-missing-generic-family-keyword": null,
+    "string-quotes": "single",
+    "font-family-name-quotes": "always-where-recommended",
+    "media-feature-name-no-unknown": [ true, {
+      "ignoreMediaFeatureNames": ["/^-webkit/"]
+    }],
+    "property-no-unknown": [ true, {
+      "ignoreProperties": ["text"]
+    }]
+  }
+}

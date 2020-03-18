@@ -1,0 +1,12 @@
+node_modules
+dist
+.idea
+utils
+.tmp
+*.log
+.eslintcache
+/.history
+yarn.lock
+package-lock.json
+.vscode
+wiki
